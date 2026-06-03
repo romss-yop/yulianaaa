@@ -1,0 +1,20 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #F08080;
+	display: flex;
+	flex-direction: column-reverse;
+	min-height: 100vh;
+	border-radius: 10px solid ;
+}
+
+.contenedor{
+	width: 100%;
+	max-width: 900px;
+	margin: 50px auto;
+	background-color: ;
+}

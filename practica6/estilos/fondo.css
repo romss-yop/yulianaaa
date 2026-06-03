@@ -1,0 +1,43 @@
+body{
+	background: url("../img/estrellas");
+	font-family: verdana;
+}
+
+div{
+	background: lightpink;
+	width: 70%;
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 20px;
+	border: 1px solid;
+}
+
+/*Centar titulo y justificar parrafos en caja principal*/
+
+.cajainicial h2{
+	text-align: center;
+}
+
+.cajapricipal p{
+	text-align: justify;
+}
+
+/*centrar todo el texto de cajafinal*/
+
+.cajafinal{
+	text-align: center;
+}
+
+
+div:hover{
+	background: black;
+	color: white;
+	border: 1px solid white;
+}
+
+.botones a{
+	color: lightcoral;
+	border: 2px solid lightcoral;
+	padding: 5px 20px;
+	display: inline-block;
+}

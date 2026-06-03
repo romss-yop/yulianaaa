@@ -1,0 +1,86 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+	background: #141414;
+	color: white;
+	font-family: inter;
+	font-size: 1.2rem;
+}
+
+menu img{
+	width: 10%;
+}
+
+manu{
+	padding: 15px;
+
+}
+
+main .contenedor{
+	width: 80%;
+	margin: 0 auto;
+	background: #141414;
+}
+
+main .bienvenida{
+	padding: 10px;
+	text-align: center;
+}
+
+main .perfiles{
+	padding: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+main .perfiles .foto img{
+	width: 190px;
+}
+
+main .perfiles .perfil .foto{
+	width: 200px;
+	height: 200px;
+	background: brown;
+	margin: 10px 0;
+	border: 5px solid #323232;
+}
+
+main .perfil .foto:hover{
+	border: 5px solid white;
+}
+
+main .perfiles .nombre{
+	text-align: center;
+	margin: 20px 10px;
+}
+main .boton{
+	text-align: center;
+	margin: 10px;
+	padding: 5px;
+}
+
+main .boton a{
+	color: #7d7d7d;
+	text-decoration: none;
+	border: 2px solid #7d7d7d;
+	padding: 5px 40px;
+	display: inline-block;
+}
+
+main .boton a:hover{
+	color: white;
+	border: 2px solid white;
+	transition: 0.5s;
+
+}
+
+footer{
+	text-align: center;
+	padding: 30px;
+}
